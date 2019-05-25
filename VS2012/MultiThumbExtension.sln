@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Express 2012 for Windows Desktop
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MultiThumbExtension", "MultiThumbExtension.vcxproj", "{465634C4-33DA-41FB-82A2-01A461CBA308}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ThumbGen", "ThumbGen.vcxproj", "{5A36E850-D8B1-41EF-A3ED-2AB1D5C83BCF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Mixed Platforms = Debug|Mixed Platforms
@@ -25,6 +27,16 @@ Global
 		{465634C4-33DA-41FB-82A2-01A461CBA308}.Release|Win32.Build.0 = Release|Win32
 		{465634C4-33DA-41FB-82A2-01A461CBA308}.Release|x64.ActiveCfg = Release|x64
 		{465634C4-33DA-41FB-82A2-01A461CBA308}.Release|x64.Build.0 = Release|x64
+		{5A36E850-D8B1-41EF-A3ED-2AB1D5C83BCF}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{5A36E850-D8B1-41EF-A3ED-2AB1D5C83BCF}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{5A36E850-D8B1-41EF-A3ED-2AB1D5C83BCF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5A36E850-D8B1-41EF-A3ED-2AB1D5C83BCF}.Debug|Win32.Build.0 = Debug|Win32
+		{5A36E850-D8B1-41EF-A3ED-2AB1D5C83BCF}.Debug|x64.ActiveCfg = Debug|Win32
+		{5A36E850-D8B1-41EF-A3ED-2AB1D5C83BCF}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{5A36E850-D8B1-41EF-A3ED-2AB1D5C83BCF}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{5A36E850-D8B1-41EF-A3ED-2AB1D5C83BCF}.Release|Win32.ActiveCfg = Release|Win32
+		{5A36E850-D8B1-41EF-A3ED-2AB1D5C83BCF}.Release|Win32.Build.0 = Release|Win32
+		{5A36E850-D8B1-41EF-A3ED-2AB1D5C83BCF}.Release|x64.ActiveCfg = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

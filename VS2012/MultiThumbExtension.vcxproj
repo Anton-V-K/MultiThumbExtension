@@ -69,25 +69,25 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
     <OutDir>..\bin\$(Platform)\$(Configuration)\</OutDir>
-    <IntDir>..\tmp\$(Platform)\$(Configuration)\</IntDir>
+    <IntDir>..\tmp\$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
     <IncludePath>$(GLOG_DIR)\src\windows;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
     <OutDir>..\bin\$(Platform)\$(Configuration)\</OutDir>
-    <IntDir>..\tmp\$(Platform)\$(Configuration)\</IntDir>
+    <IntDir>..\tmp\$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
     <IncludePath>$(GLOG_DIR)\src\windows;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
     <OutDir>..\bin\$(Platform)\$(Configuration)\</OutDir>
-    <IntDir>..\tmp\$(Platform)\$(Configuration)\</IntDir>
+    <IntDir>..\tmp\$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
     <IncludePath>$(GLOG_DIR)\src\windows;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
     <OutDir>..\bin\$(Platform)\$(Configuration)\</OutDir>
-    <IntDir>..\tmp\$(Platform)\$(Configuration)\</IntDir>
+    <IntDir>..\tmp\$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
     <IncludePath>$(GLOG_DIR)\src\windows;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
